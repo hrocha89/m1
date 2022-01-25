@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #fbfbfb;
+}
+
+.logo {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 40px;
+    padding-left: 10%;
+}
+
+.linha {
+    width: 7%;
+    size: 7px;
+    margin: auto;
+}
+
+.bordasTopBootom {
+    background: #232629;
+    color: #ffffff;
+}
+
+.bg-dark {
+    background: #232629;
+}
+
+.contatos {
+    background: #f2f7fb73;
+}
+
+.top-menu {
+    margin-top: 10%;
+}
+
+.link-fone {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1c2023;
+}
+
+.link-fone:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1c2023;
+}
