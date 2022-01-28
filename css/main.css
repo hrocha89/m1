@@ -44,3 +44,29 @@ body {
     cursor: pointer;
     color: #1c2023;
 }
+
+.sub-logo {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #f1fffdeb;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .sub-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-mobile {
+        margin-top: 35%;
+    }
+}
+
+@media (min-width: 600px) {
+    .top-mobile {
+        margin-top: 12%;
+        margin-bottom: 3%;
+    }
+}

@@ -13,8 +13,11 @@ menuItens.forEach(item => {
         const to = document.querySelector(id).offsetTop;
 
         window.scroll({
-            top: to - 100,
+            top: to - 125,
             behavior: "smooth"
         });
+
+        const menuShow = document.getElementById('navbarSupportedContent');
+        menuShow.classList.remove('show');
     })
 });
